@@ -1,0 +1,135 @@
+.magazine-cover {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);  
+  grid-template-rows: auto 1fr 1fr;      
+  grid-template-areas:
+    "title title title"
+    "feature-article feature-article cover-image"
+    "small-article1 small-article2 cover-image";
+  gap: 10px;                              
+  width: 90vw;                           
+  margin: auto;
+}
+.title {
+  grid-area: title;
+  background-color: #0a9396; 
+  color: #fffbf0; 
+  text-align: center;
+  font-size: 3rem;
+  padding: 1rem;
+}
+.feature-article {
+  grid-area: feature-article;
+   background: #e9d8a6;
+  color: #222222;       /* Dark text */
+  padding: 0.8rem;  
+}
+.small-article1 {
+  grid-area: small-article1;
+   background: #ffc300;   
+  color: #333333;
+  padding: 0.5rem;
+}
+.small-article2 {
+  grid-area: small-article2;
+  background: #ffc300;    /* White */
+  color: #333333;
+  padding: 0.5rem;
+}
+.cover-image {
+  grid-area: cover-image;
+  background: #EAEAEA;   /* Soft grey */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cover-image img {
+  max-width: 90%;
+  height: auto;
+  border: 2px solid #000000;
+  border-radius: 8px;
+}
+.article-heading {
+ color: #bb3e03;        /* Firebrick red */
+  font-size: 24px;
+  font-weight: bold;
+}
+p {
+  font-family: Open Sans, sans-serif; 
+  text-align: justify;
+  color: #2d2d2d;
+}
+p::first-letter {
+  color: #005f73;       
+  font-size: 24px;
+}
+.footer {
+  background: #1a1a1a;          
+  text-align: center;
+  padding: 12px;
+  margin-top: 30px;
+  font-size: 18px;
+  font-family: "Georgia", serif;   
+  border-top: 3px solid #ee9b00;  
+  width: 100%;
+  position: relative;   /* Changed from absolute */
+  bottom: 0;
+}
+.footer span {
+  font-weight: bold;
+  color: #ee9b00;             
+}
+@media screen and (max-width: 768px) {
+  .magazine-cover {
+    grid-template-columns: 1fr; /* Single column */
+    grid-template-rows: auto;
+    grid-template-areas:
+      "title"
+      "cover-image"
+      "feature-article"
+      "small-article1"
+      "small-article2";
+    width: 95vw;
+  }
+  .title {
+    font-size: 2rem;
+    padding: 0.8rem;
+  }
+  .feature-article,
+  .small-article1,
+  .small-article2 {
+    padding: 1rem;
+    font-size: 1rem;
+  }
+  .cover-image img {
+    max-width: 100%;
+    border-radius: 6px;
+  }
+  .footer {
+    font-size: 16px;
+    padding: 10px;
+  }
+}
+/* 🎯 For Laptop screens */
+@media screen and (min-width: 1024px) {
+  .magazine-cover {
+    grid-template-columns: repeat(3, 1fr);  
+    grid-template-rows: auto 1fr 1fr;      
+    grid-template-areas:
+      "title title title"
+      "feature-article feature-article cover-image"
+      "small-article1 small-article2 cover-image";
+    width: 90vw;
+  }
+  .title {
+    font-size: 3rem;
+  }
+  .feature-article,
+  .small-article1,
+  .small-article2 {
+    font-size: 1.1rem;
+  }
+  .cover-image img {
+    max-width: 90%;
+  }
+}
