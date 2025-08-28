@@ -16,7 +16,7 @@ It showcases the evolution of cricket through engaging articles, a cover image, 
 The project demonstrates how storytelling and design can combine to create an engaging digital magazine experience.  
 ---
 ## 📸 Preview  
-![Website Preview](screenshot.png) 
+![Website Preview](Screenshot 2025-08-28 230151.png) 
 
 ---
 
