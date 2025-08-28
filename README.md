@@ -1,7 +1,7 @@
  # 🏏 Stumps & Stories  
 *A Cricket-Themed Magazine-Style Webpage*  
 
-![License](https://img.shields.io/github/license/udayreddy-86/cricket-magazine-layout)  
+[![License: MIT](https://img.shields.io/github/license/udayreddy-86/cricket-magazine-layout)](https://github.com/udayreddy-86/cricket-magazine-layout/blob/main/LICENSE)
 [![GitHub Pages](https://img.shields.io/badge/View%20Live%20Demo-online-brightgreen)](https://udayreddy-86.github.io/cricket-magazine-layout/) 
 
 ## 🌍 Live Demo  
