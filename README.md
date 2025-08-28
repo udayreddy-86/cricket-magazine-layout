@@ -2,7 +2,7 @@
 *A Cricket-Themed Magazine-Style Webpage*  
 
 ![License](https://img.shields.io/github/license/udayreddy-86/cricket-magazine-layout)  
-![GitHub Pages](https://img.shields.io/badge/View%20Live%20Demo-online-brightgreen)  
+[![GitHub Pages](https://img.shields.io/badge/View%20Live%20Demo-online-brightgreen)](https://udayreddy-86.github.io/cricket-magazine-layout/) 
 
 ## 🌍 Live Demo  
 👉 [View Website](https://udayreddy-86.github.io/cricket-magazine-layout/)  
