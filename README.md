@@ -14,6 +14,9 @@
 It showcases the evolution of cricket through engaging articles, a cover image, and supporting sections, all aligned within a responsive grid.  
 
 The project demonstrates how storytelling and design can combine to create an engaging digital magazine experience.  
+---
+## 📸 Preview  
+![Website Preview](screenshot.png) 
 
 ---
 
