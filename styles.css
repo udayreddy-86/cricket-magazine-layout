@@ -21,7 +21,7 @@
 .feature-article {
   grid-area: feature-article;
    background: #e9d8a6;
-  color: #222222;       /* Dark text */
+  color: #222222;       
   padding: 0.8rem;  
 }
 .small-article1 {
@@ -32,13 +32,13 @@
 }
 .small-article2 {
   grid-area: small-article2;
-  background: #ffc300;    /* White */
+  background: #ffc300;   
   color: #333333;
   padding: 0.5rem;
 }
 .cover-image {
   grid-area: cover-image;
-  background: #EAEAEA;   /* Soft grey */
+  background: #EAEAEA;   
   display: flex;
   align-items: center;
   justify-content: center;
@@ -50,7 +50,7 @@
   border-radius: 8px;
 }
 .article-heading {
- color: #bb3e03;        /* Firebrick red */
+ color: #bb3e03;        
   font-size: 24px;
   font-weight: bold;
 }
@@ -72,7 +72,7 @@ p::first-letter {
   font-family: "Georgia", serif;   
   border-top: 3px solid #ee9b00;  
   width: 100%;
-  position: relative;   /* Changed from absolute */
+  position: relative;  
   bottom: 0;
 }
 .footer span {
@@ -81,7 +81,7 @@ p::first-letter {
 }
 @media screen and (max-width: 768px) {
   .magazine-cover {
-    grid-template-columns: 1fr; /* Single column */
+    grid-template-columns: 1fr; 
     grid-template-rows: auto;
     grid-template-areas:
       "title"
@@ -103,6 +103,7 @@ p::first-letter {
   }
   .cover-image img {
     max-width: 100%;
+    background-size: cover;
     border-radius: 6px;
   }
   .footer {
@@ -110,7 +111,7 @@ p::first-letter {
     padding: 10px;
   }
 }
-/* 🎯 For Laptop screens */
+/* For Laptop screens */
 @media screen and (min-width: 1024px) {
   .magazine-cover {
     grid-template-columns: repeat(3, 1fr);  
@@ -133,3 +134,4 @@ p::first-letter {
     max-width: 90%;
   }
 }
+
